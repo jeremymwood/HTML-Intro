@@ -1,5 +1,8 @@
-header {
+header, section {
     border-bottom: solid grey;
     /*padding-bottom: 8px;*/
 }
 
+img {
+    width: 50vw;
+}
