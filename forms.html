@@ -2,36 +2,35 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>forms lesson</title>
+    <title>Register With Us</title>
 </head>
 <body>
-  <form method="POST" action="https://request-inspector.glitch.me/">
+    <form method="POST" action="https://request-inspector.glitch.me/">
 
-    <label for="username">Username</label>
-    <input id="username" name="username" type="text" placeholder="user name">
-    <br>
+        <label for="email">Email</label>
+        <input id="email" name="email" type="text" placeholder="email">
+        <br>
 
-    <label for="password">Password</label>
-    <input id="password" name="password" placeholder="password">
-    <br>
-
-    <input type="submit">
-  </form>
-  <form method="post">
-    A <input type="radio" name="quiz_question_1" value="a"><br>
-    B <input type="radio" name="quiz_question_1" value="b"><br>
-    C <input type="radio" name="quiz_question_1" value="c"><br>
-    D <input type="radio" name="quiz_question_1" value="d"><br>
-    <input type="submit">
-  </form>
-
-  <form method="post">
-    <select name="coffee_preference">
-      <option value="light">Light Roast</option>
-      <option value="dark">Dark Roast</option>
-      <option value="espresso">Espresso Blend</option>
-    </select>
-  </form>
-
+        <label for="password">Password</label>
+        <input id="password" name="password" type="password" placeholder="password">
+        <br>
+        <textarea name="bio" id="bio" cols="30" rows="10" placeholder="Tell us about yourself..."></textarea>
+        <br>
+<!--        <input name="newsletter_signup" value="true" type="checkbox" checked>Sign Up For The Email Newsletter-->
+<!--        <br>-->
+        <p>How did you hear about us?</p>
+        <input type="radio" name="how-did-you-hear-from-us-question" value="billboard">billboard<br>
+        <input type="radio" name="how-did-you-hear-from-us-question" value="radio advertisement">radio advertisement<br>
+        <input type="radio" name="how-did-you-hear-from-us-question" value="internet advertisement">internet advertisement<br>
+        <input type="radio" name="how-did-you-hear-from-us-question" value="other">other<br>
+        <br>
+        <select name="browser_preference">
+            <option value="light">Light Roast</option>
+            <option value="dark">Dark Roast</option>
+            <option value="espresso">Espresso Blend</option>
+        </select>
+        <br>
+        <input type="submit">
+    </form>
 </body>
 </html>
