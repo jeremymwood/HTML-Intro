@@ -5,32 +5,53 @@
     <title>Register With Us</title>
 </head>
 <body>
-    <form method="POST" action="https://request-inspector.glitch.me/">
+    <form method="get" action="https://request-inspector.glitch.me/">
 
         <label for="email">Email</label>
         <input id="email" name="email" type="text" placeholder="email">
-        <br>
+        <br><br>
 
         <label for="password">Password</label>
         <input id="password" name="password" type="password" placeholder="password">
-        <br>
+        <br><br>
         <textarea name="bio" id="bio" cols="30" rows="10" placeholder="Tell us about yourself..."></textarea>
-        <br>
+        <br><br>
 <!--        <input name="newsletter_signup" value="true" type="checkbox" checked>Sign Up For The Email Newsletter-->
 <!--        <br>-->
-        <p>How did you hear about us?</p>
-        <input type="radio" name="how-did-you-hear-from-us-question" value="billboard">billboard<br>
+        How did you hear about us?
+        <br>
+        <input type="radio" name="" value="billboard">billboard<br>
         <input type="radio" name="how-did-you-hear-from-us-question" value="radio advertisement">radio advertisement<br>
         <input type="radio" name="how-did-you-hear-from-us-question" value="internet advertisement">internet advertisement<br>
         <input type="radio" name="how-did-you-hear-from-us-question" value="other">other<br>
         <br>
+        What browser do you use?
+        <br>
         <select name="browser_preference">
-            <option value="light">Light Roast</option>
-            <option value="dark">Dark Roast</option>
-            <option value="espresso">Espresso Blend</option>
+            <option value="Chrome">Chrome</option>
+            <option value="Firefox">Firefox</option>
+            <option value="Internet Explorer">Internet Explorer</option>
+            <option value="Safari">Safari</option>
         </select>
+        <br>
         <br>
         <input type="submit">
     </form>
 </body>
 </html>
+
+<!--POST-->
+
+<!--{"method":"POST","query":{},"body":{"email":"sdg","password":"dsfgdsf","bio":"dsfgsdfg","how-did-you-hear-from-us-question":"billboard","browser_preference":"Chrome"}}-->
+
+<!--https://request-inspector.glitch.me/-->
+
+
+
+<!--GET-->
+
+<!--{"method":"GET","query":{"email":"DSFH","password":"SDFGH","bio":"SFDGH","how-did-you-hear-from-us-question":"radio advertisement","browser_preference":"Firefox"},"body":{}}-->
+
+<!--https://request-inspector.glitch.me/?email=DSFH&password=SDFGH&bio=SFDGH&how-did-you-hear-from-us-question=radio+advertisement&browser_preference=Firefox-->
+
+<!--el formo is for sale!-->
