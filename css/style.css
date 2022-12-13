@@ -1,13 +1,23 @@
 :root {
-    color: aqua;
 }
 
 body {
+    color: #ffaa00;
     /*background-color: red;*/
-    background-image: url("../images/pexels-pixabay-34534.jpg");
+    background-image: url(../images/pexels-pixabay-34534.jpg);
+    background-position: 50vw 100px;
     /*width: 50vw;*/
-    background-size: 50vw;
+    background-size: 100vw;
     margin: 0;
+    /*font-family: 'Roboto', sans-serif;*/
+}
+
+.fancy-header {
+    font-size: 2rem;
+    text-align: center;
+    color: blue;
+    text-decoration: underline;
+    font-family: 'Rubik Storm', cursive;
 }
 
 header, section {
@@ -19,25 +29,58 @@ header {
     text-decoration: underline;
 }
 
-h1 {
-    font-size: 2rem;
-    font-family: 'Roboto', sans-serif;
-    text-align: center
-}
+/*table {*/
+/*    padding: 0;*/
+/*    text-align: center;*/
+/*}*/
 
 table {
-    margin: 0;
+
 }
 
-img {
+th {
+    padding: 0;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+tr {
+    padding: 10px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.image-array {
+    padding: 0;
     width: 100%;
 }
 
-h1 {
-    color: red;
+img {
+    /*padding: 0;*/
+    width: 100%;
 }
 
-.fancy-header {
-    color: blue; /* single line comment */
-    text-decoration: underline;
+li {
+    list-style-type: upper-roman;
+}
+
+a {
+    font-size: 2rem;
+}
+
+a:link {
+    color: #00ffa6;
+    position: absolute;
+}
+
+a:visited {
+    color: #cb7e14;
+}
+
+a:hover {
+    color:red;
+}
+
+a:active {
+    color: #d000ff;
 }
