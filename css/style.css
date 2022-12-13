@@ -2,14 +2,12 @@
 }
 
 body {
-    color: #ffaa00;
-    /*background-color: red;*/
+    color: #ff00c3;
+    background-color: red;
+    margin: 0;
     background-image: url(../images/pexels-pixabay-34534.jpg);
     background-position: 50vw 100px;
-    /*width: 50vw;*/
     background-size: 100vw;
-    margin: 0;
-    /*font-family: 'Roboto', sans-serif;*/
 }
 
 .fancy-header {
