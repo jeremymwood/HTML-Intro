@@ -1,0 +1,43 @@
+:root {
+    color: aqua;
+}
+
+body {
+    /*background-color: red;*/
+    background-image: url("../images/pexels-pixabay-34534.jpg");
+    /*width: 50vw;*/
+    background-size: 50vw;
+    margin: 0;
+}
+
+header, section {
+    border-bottom: solid grey;
+}
+
+header {
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    text-align: center
+}
+
+table {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    color: red;
+}
+
+.fancy-header {
+    color: blue; /* single line comment */
+    text-decoration: underline;
+}
