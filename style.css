@@ -6,3 +6,12 @@ header, section {
 img {
     width: 50vw;
 }
+
+h1 {
+    color: red;
+}
+
+.fancy-header {
+    color: blue; /* single line comment */
+    text-decoration: underline;
+}
