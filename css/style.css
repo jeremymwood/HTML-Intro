@@ -1,7 +1,6 @@
-:root{
-    margin: 0;
-}
-
+/*:root{*/
+/*    margin: 0;*/
+/*}*/
 
 body {
     color: #ff00c3;
@@ -23,7 +22,7 @@ header, section {
     border-bottom: solid grey;
 }
 
-header {
+h1, h2, h3, h4, h5, h6 {
     color: blueviolet;
     text-decoration: underline;
 }
