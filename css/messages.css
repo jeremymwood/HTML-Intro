@@ -19,8 +19,8 @@ body, html {
 
 .message {
     border: 1px lightgray solid;
-    color: var(--text-info);
     border-radius: .5em;
+    color: var(--text-info);
     background-color: var(--bg-info);
     padding: 1em;
     margin: 1em;

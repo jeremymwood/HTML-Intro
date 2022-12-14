@@ -50,6 +50,15 @@ a {
 }
 .profile {
     background: var(--light-bg);
+    height: 80px;
+}
+.profile-image {
+    position: absolute;
+    top: 200px;
+}
+.profile-form {
+    height: 80px;
+    float: right;
 }
 .btn {
     border: 1px solid var(--main-link-color);
@@ -62,6 +71,7 @@ a {
 .btn-large {
     font-size: 1.3em;
     padding: 10px;
+    line-height: auto;
 }
 .img-circle {
     border-radius: 100%;
