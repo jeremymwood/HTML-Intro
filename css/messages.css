@@ -1,12 +1,12 @@
 :root {
-    --blue: #C4D8F2;
-    --green: #D0F2D9;
-    --yellow: #F2EFC4;
-    --red: #F2D0D7;
-    --blue-text: #231F8C;
-    --green-text: #388959;
-    --yellow-text: #B1A44E;
-    --red-text: #74011E;
+    --bg-info: #C4D8F2;
+    --bg-success: #D0F2D9;
+    --bg-warning: #F2EFC4;
+    --bg-error: #F2D0D7;
+    --text-info: #231F8C;
+    --text-success: #388959;
+    --text-warning: #B1A44E;
+    --text-error: #74011E;
 }
 
 body, html {
@@ -19,29 +19,29 @@ body, html {
 
 .message {
     border: 1px lightgray solid;
-    color: var(--blue-text);
+    color: var(--text-info);
     border-radius: .5em;
-    background-color: var(--blue);
+    background-color: var(--bg-info);
     padding: 1em;
     margin: 1em;
 }
 
 .message-success {
-    color: var(--green-text);
-    background-color: var(--green);
+    color: var(--text-success);
+    background-color: var(--bg-success);
 }
 
 .message-success {
-    color: var(--green-text);
-    background-color: var(--green);
+    color: var(--text-success);
+    background-color: var(--bg-success);
 }
 
 .message-warning {
-    color: var(--yellow-text);
-    background-color: var(--yellow);
+    color: var(--text-warning);
+    background-color: var(--bg-warning);
 }
 
 .message-error {
-    color: var(--red-text);
-    background-color: var(--red);
+    color: var(--text-error);
+    background-color: var(--bg-error);
 }
