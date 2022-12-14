@@ -13,20 +13,15 @@ body, html {
 form {
     /* This form should be separated from other elements by 1em */
     padding: 1em ;
+    margin: 1em;
 }
-
-form > * {
-    padding: 1em ;
-    /* There must be 1em between the content and the border of this element */
-}
-
 
 fieldset {
     -webkit-box-shadow: 10px 10px 5px 0 rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 5px 0 rgba(0,0,0,0.75);
     box-shadow: 10px 10px 5px 0 rgba(0,0,0,0.75);
     /* There must be 1em between the content and the border of this element */
-    /*addressed above in form > **/
+    padding: 1em;
     /* It should have no border */
     border: 0;
     /* Its background should be white */
@@ -61,28 +56,24 @@ fieldset {
 
 .btn {
     /* There must be a separation of 8px between the text and the border of this element */
-    /*padding: 1em;*/
+    padding: 8px;
     /*!* The text color of this element should be white and bold *!*/
     color: white;
     font-weight: bold;
-    background-color: #07eea8;
     /* The border of this element should be 1px, and its color should be light grey */
-    border-color: lightgray;
-    /*border-width: 1px;*/
-}
-
-.btn:hover {
+    border: 1px lightgray solid;
+    /*border: #cb7e14 2rem;*/
     background-color: #0fb784;
 }
 
-.btn:active {
-    /*background-color: #0fb784;*/
-    background-color: #07eea8;
-    box-shadow: inset 0 0 10px #0fb784;
-
-    /*box-shadow: #cb7e14;*/
+.btn:hover {
+    background-color: #e273f3;
 }
-    /*width: var(--80width);*/
+
+.btn:active {
+    background-color: #07eea8;
+    box-shadow: 0 0 10px #0fb784;
+}
 
 .form-control {
     /* There must be 4px on top of the text and below the text of an input with this class */
@@ -93,8 +84,8 @@ fieldset {
     /* You'll need to use the `calc` function to make the width of this element match the width of the button */
     /*width: calc(100% - 1em);*/
     /*box-sizing: border-box;*/
-    /*width: calc(100% - 1em);*/
-    width: 100%;
+    width: calc(100% - 0.25em);
+    /*width: 100%;*/
 
     /* See the example at: https://developer.mozilla.org/en-US/docs/Web/CSS/calc */
     /* HINT: Examples are available at: https://glitch.com/~input-button-width */
