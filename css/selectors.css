@@ -5,6 +5,10 @@
     padding: 10px;
 }
 
+body {
+    background-color: #a3f6d9;
+}
+
 /*  selector for all "h1" elements
     that are a descendent of id="container"
     and have a class of "fancy-header" */
