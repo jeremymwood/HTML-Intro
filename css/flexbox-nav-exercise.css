@@ -1,15 +1,6 @@
-
-
-/*Google Fonts used for logo and link text ("Montserrat" and "Work Sans", respectively)*/
-/*the "Logo" text is 3em with .2em of padding above and below*/
-/*                              no explicit height given to the navbar*/
-/*                              default styling is removed as needed from the body, unordered list and anchor tag elements*/
-/*logo is horizontally centered on the navbar (automatic margins will help achieve this)*/
-
-/*@import url('https://fonts.googleapis.com/css2?family=Rubik+Storm&display=swap');*/
 * {
     box-sizing: border-box;
-    font-family: 'Montserrat';
+    font-family: 'Work Sans';
 }
 body {
     margin: 0;
@@ -17,6 +8,7 @@ body {
 nav {
     background: gray;
     display: flex;
+    justify-content: center;
 }
 ul {
     list-style: none;
@@ -26,8 +18,10 @@ ul {
     align-items: center;
 }
 h1 {
+    font-family: 'Montserrat';
     font-size: 3em;
     margin: 0 auto;
+    padding: 0.2em 0;
     align-items: center;
 }
 nav a {
