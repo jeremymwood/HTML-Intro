@@ -39,8 +39,6 @@ body {
     /* TODO: Add an automatic margin and a flex container to this selector */
     display: flex;
     margin: auto;
-    /*padding: 10em;*/
-
 }
 
 .flex-form > * {
