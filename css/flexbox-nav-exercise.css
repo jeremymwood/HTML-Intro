@@ -71,3 +71,8 @@ footer a:hover {
     justify-content: center;
     font-size: .5em;
 }
+@media screen and (max-width:600px) {
+    * {
+        background-color: gray;
+    }
+}
