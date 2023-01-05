@@ -41,59 +41,67 @@
 </nav>
 <div class="container-fluid">
   <div class="jumbotron d-sm-none d-md-block">
-<!--    align center not working-->
     <div class="d-flex justify-content-center align-items-center h-100">
       <h1 class="bg-light bg-opacity-50 d-flex justify-content-center align-items-center w-100">Welcome to Pizza World!</h1>
-
     </div>
   </div>
   <h2>Build your own pizza!</h2>
   <ul class="nav nav-tabs" id="myTab" role="tablist">
     <li class="nav-item" role="presentation">
-      <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true"><span class="badge bg-secondary me-2">1</span>Size and Crust</button>
+      <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true"><span class="badge bg-secondary me-2 rounded-circle">1</span>Size and Crust</button>
     </li>
     <li class="nav-item" role="presentation">
-      <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false"><span class="badge bg-secondary me-2">2</span>Cheese and Sauce</button>
+      <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false"><span class="badge bg-secondary me-2 rounded-circle">2</span>Cheese and Sauce</button>
     </li>
     <li class="nav-item" role="presentation">
-      <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false"><span class="badge bg-secondary me-2">3</span>Toppings</button>
+      <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false"><span class="badge bg-secondary me-2 rounded-circle">3</span>Toppings</button>
     </li>
   </ul>
   <div class="tab-content" id="myTabContent">
-    <div class="tab-pane fade bg-primary text-white p-2 show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-      <div class="tab-pane fade bg-primary text-white ps-2 show active" id="home" role="tabpanel" aria-labelledby="home-tab">Choose Size and Crust</div>
-      <ul class="list-group p-2">
-        <li class="list-group-item" style="background-color: lightgray">Hand Tossed</li>
-        <li class="list-group-item">Garlic seasoned crust with a rich, buttery taste.</li>
-        <li class="list-group-item">
-          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-          <label class="form-check-label" for="flexRadioDefault1">
-            Small (10")
-          </label>
-        </li>
-        <li class="list-group-item">
-          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-          <label class="form-check-label" for="flexRadioDefault1">
-            Medium (12")
-          </label>
-        </li>
-      </ul>
-      <ul class="list-group p-2">
-        <li class="list-group-item" style="background-color: lightgray">Crispy Thin</li>
-        <li class="list-group-item">Thin enough for optimum crispy to crunchy ratio.</li>
-        <li class="list-group-item">
-          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-          <label class="form-check-label" for="flexRadioDefault1">
-            Medium (12")
-          </label>
-        </li>
-        <li class="list-group-item">
-          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-          <label class="form-check-label" for="flexRadioDefault1">
-            Large (14")
-          </label>
-        </li>
-      </ul>
+    <div class="tab-pane fadeshow active" id="home" role="tabpanel" aria-labelledby="home-tab">
+      <div class="tab-pane fade show active" role="tabpanel" aria-labelledby="home-tab">
+        <ul class="list-group">
+          <li class="list-group-item bg-primary text-white ps-2">Choose Size and Crust</li>
+          <li class="list-group-item">
+            <ul class="list-group p-2">
+              <li class="list-group-item" style="background-color: lightgray">Hand Tossed</li>
+              <li class="list-group-item">Garlic seasoned crust with a rich, buttery taste.</li>
+              <li class="list-group-item">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Small (10")
+                </label>
+              </li>
+              <li class="list-group-item">
+                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Medium (12")
+                </label>
+              </li>
+            </ul>
+            <ul class="list-group p-2">
+              <li class="list-group-item" style="background-color: lightgray">Crispy Thin</li>
+              <li class="list-group-item">Thin enough for optimum crispy to crunchy ratio.</li>
+              <li class="list-group-item">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Medium (12")
+                </label>
+              </li>
+              <li class="list-group-item">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Large (14")
+                </label>
+              </li>
+            </ul>
+          </li>
+          <li class="list-group-item d-flex justify-content-end" style="background-color: lightgray">
+              <button type="button" class="btn btn-primary btn-sm bg-primary text-white ps-2">Next Step ></button>
+            </div>
+          </li>
+        </ul>
+      </div>
     </div>
     <div class="tab-pane fade bg-primary text-white ps-2" id="profile" role="tabpanel" aria-labelledby="profile-tab">Choose Cheese and Sauce</div>
     <div class="tab-pane fade bg-primary text-white ps-2" id="contact" role="tabpanel" aria-labelledby="contact-tab">Choose Toppings</div>
