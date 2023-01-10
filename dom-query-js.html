@@ -22,11 +22,11 @@
     second paragraph.
 </p>
 
-<button id="btn-item-1">1</button>
-<button id="btn-item-2">2</button>
-<button id="btn-item-3">3</button>
-<button id="btn-item-4">4</button>
-<button id="btn-item-5">5</button>
+<button id="btn-item-1">Change H1</button>
+<button id="btn-item-2">H2 color</button>
+<button id="btn-item-3">Alternate list items</button>
+<button id="btn-item-4">Change first list item</button>
+<button id="btn-item-5">Mission accomplished!</button>
 
 <div style="margin-top: 1em; border: #231F8C 1px solid; width: 100px; aspect-ratio: 1/1" id="extraPractice">
 
@@ -106,7 +106,8 @@
         document.getElementById('btn-item-3').addEventListener('click', listenerAltColor);
 
         const listenerLiColor = function (event) {
-            document.querySelector("li[data-dbid='1']").style.color = "blue";
+            document.querySelector("li[data-dbid='1']").style.color = "red";
+            document.querySelector("li[data-dbid='1']").style.fontWeight = "bolder";
         }
         document.getElementById('btn-item-4').addEventListener('click', listenerLiColor);
 
